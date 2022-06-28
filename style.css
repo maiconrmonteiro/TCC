@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FFDD00;
+}
+
+.logo {
+    width: 200px;
+}
+
+.menu {
+    padding: 10px;
+    font-weight: 400px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.menu:hover {
+    background: black;
+    border-radius: 10px;
+    color: #F6F6F6;
+}
+
+
+.conteudoHome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 40px;
+}
+
+.conteudoHomeTextoPrincipal {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+.conteudoHomeTextoPrincipalh2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+.conteudoHomeTexto {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+.conteudoHomeTextoArea {
+    font-family: 'Oswald', sans-serif;
+    color: red;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+footer {
+    padding-top: 40px;
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+
+.conteudo-principal-imagem-quemSou {
+    width: 300px;
+    box-shadow: 3px 2px 2px 2px rgba(0, 0, 0, 0.315);
+}
+
+.conteudo-quemSou {
+    border-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7; 
+}
+
+.conteudo-principal-quemSou {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-weight: 200px;
+    font-size: 40px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.conteudo-texto-quemSomos {
+    text-indent: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    display: flex;
+    background: F6F6F6;
+    height: 300px;
+    width: 600px;
+    text-align: justify;
+    margin-top: 100px;
+}
+
+.conteudo-texto-introducao{
+    text-indent: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    display: flex;
+    background: F6F6F6;
+    height: 300px;
+    width: 800px;
+    text-align: justify;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.conteudo-principal-escrito-fundamentacao {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.conteudo-principal-escrito-tituloConclusao {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-weight: 200px;
+    font-size: 40px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.conteudo-principal-escrito-conclusao {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 30px;
+    text-indent: 30px;
+    text-align: center;
+    
+}
